@@ -5,9 +5,11 @@
 // deixar o código mais performático
 // SEM ALTERAR suas funcionalidades
 
-
+//default import
 import resetControls from "./controls.js"
-import "./timer.js"
+
+//named import
+import { countdown, resetTimer } from "./timer.js"
 
 const buttonPlay = document.querySelector('.play')
 const buttonPause = document.querySelector('.pause')

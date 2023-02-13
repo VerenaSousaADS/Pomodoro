@@ -34,4 +34,4 @@ function countdown(){
     }, 1000)
 }
 
-console.log('timer')
+export { }
