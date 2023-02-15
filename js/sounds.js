@@ -17,6 +17,7 @@ export default function(){
     return{
         pressButton,
         timeEnd,
-        bgAudio
+        bgAudio,
+        kitchenTimer
     }
 }
